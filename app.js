@@ -1,4 +1,4 @@
-import { renderLoginCard } from "./components/login.js";
+import { renderLoginCard } from "./modules/login.js";
 
 export const root = document.querySelector("#root");
 
