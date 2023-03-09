@@ -42,7 +42,7 @@ export function getUser() {
 }
 
 export function fetchUser(user) {
-  fetch("http://localhost:3000/users/login", {
+  fetch("https://plankton-app-wqjuq.ondigitalocean.app/users/login", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

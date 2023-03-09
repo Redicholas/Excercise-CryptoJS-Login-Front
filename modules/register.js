@@ -60,7 +60,7 @@ function registerNewUser() {
 }
 
 function fetchRegister(user) {
-  fetch("http://localhost:3000/users/register", {
+  fetch("https://plankton-app-wqjuq.ondigitalocean.app/users/register", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
